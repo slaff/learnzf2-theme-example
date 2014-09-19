@@ -1,0 +1,33 @@
+{
+	"name": "learnzf2/example-theme",
+	"description": "Example Theme for a ZF2 application",
+	"keywords": [
+	      "zf2",
+	      "learn",
+	      "book",
+	      "theme",
+	      "example"
+	 ],
+	"homepage": "http://learnzf2.com/themes-in-zend-framework-2/",
+	"authors": [
+	            {
+	                "name": "Slavey Karadzhov",
+	                "email": "slaff@linux-bg.org",
+	                "homepage": "http://zf2consulting.com",
+	                "role": "Author"
+	            }
+	],
+	"require": {
+		"php": ">=5.3.3",
+        "zendframework/zendframework": "2.*",
+        "learnzf2/theme" : "dev-master"
+	},
+	"autoload": {
+        "psr-0": {
+            "Theme\\": "src/"
+        },
+        "classmap": [
+            "Module.php"
+        ]
+    }
+}
